@@ -1,9 +1,55 @@
-/* Holepage */
+/* Holepage ///////////////////////////////////////////////////////////////////////////////////////////////*/
 html{
     background-color: #242424;
 }
-/* link */
+/* about///////////////////////////////////////////////////////////////////////////////////////////////// */
 
+.mb-0{
+    background-color: #242424;
+    padding: 15px 15% 15px 15%;
+}
+ .card-title{
+     color: white;
+ }
+
+ .card-text{
+    color:white;
+ }
+
+.card-img{
+    width: 75%;
+    height: 100%;
+}
+
+/* footer///////////////////////////////////////////////////////////////////////////////////////////////// */
+footer{
+    color: #929293;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+   
+}
+
+a.link{
+    color: #df9b3a;
+    text-decoration: none;
+}
+a:link {
+    color: #df9b3a;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #df9b3a;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #df9b3a;
+    text-decoration: none;
+  }
+  a:active {
+    color: #df9b3a;
+    text-decoration: none;
+  }
 /* navbar */
 #header{
     position: fixed;
@@ -34,29 +80,47 @@ html{
     background: #dcdde1;
     color: #df9b3a;
 }
-/* portafolio box */
+/* portafolio box ///////////////////////////////////////////////////////////////////////////////////////*/
+.container-portafolio{
+    background: #2f2e36;
+    width: 100%;
+}
+.portafolio-title{
+    padding: 5% 0% 0% 0%;
+    color: #fff;
+    text-align: center;
+    font-family: Lato;
+    font-size: 50px;
+    letter-spacing: 10px;
+    background: -webkit-linear-gradient(white, #38495a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom:0px;
+}
+
+
 .portafolio{
     width:100%;
     height: 100%;
     display:flex;
     justify-content: center;
     align-items: center;
-    background: #242424;
+    background: #2f2e36;
+    padding-top: -5px;
+    padding-bottom: 20px;
 }
 .wrapper2{
     display:flex;
     width: 70%;
     justify-content: space-around;
-    background: #242424;
+    background: #2f2e36;
+    padding: 15px;
 }
 .card{
     width: 280px;
-    height: 360px;
+    height: 300px;
     padding: 2rem 1rem;
     background: #fff;
-    position: relative;
-    display: flex;
-    align-items: flex-end;
     box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
     transition: 0.5s ease-in-out;
 }
@@ -71,7 +135,7 @@ html{
     display:block;
     width:100%;
     height: 100%;
-    background: linear-gradient(to bottom, rgba(0,176,155,0.5), rgba(150,201,61,1));
+    background: linear-gradient(to bottom, #ffffff 0%, #df9b3a 100%);
     z-index: 2;
     transition: 0.5s all;
     opacity: 0;
@@ -102,6 +166,7 @@ html{
     transform: translateY(0);
 }
 .card .info h1{
+    color:#df9b3a;
     margin:0;
 }
 .card .info p{
@@ -123,7 +188,7 @@ html{
 .card .info .btn:hover{
     box-shadow: 0px 7px 10px rgba(0,0,0,0,0.5);
 }
-/* contact box */
+/* contact box //////////////////////////////////////////////////////////////////////////////////////////*/
 h1{
     margin: 0;
     padding: 0;
@@ -131,7 +196,7 @@ h1{
     margin-bottom: 50px;
 }
 .formBox{
-    margin-top: 10px;
+    margin-top: 15px;
     padding: 50px;
 }
 
@@ -799,4 +864,53 @@ textarea{
     to {
         transform: translateY(-2000px);
     }
+}
+
+/* iPad Pro PORTRAIT */
+@media screen and (max-width: 1024px) {
+}
+/* iPad Pro LANDSCAPE*/
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) and (orientation : landscape) {
+}
+/* iPad PORTRAIT*/
+@media screen and (max-width: 769px) {
+}
+/* iPad LANDSCAPE*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+}
+/* iPhone 6/7/8 Plus PORTRAIT */
+@media screen and (max-width: 414px) {
+}
+/* iPhone 6/7/8 Plus LANDSCAPE */
+@media only screen and (min-device-width : 411px) and (max-device-width : 736px) and (orientation : landscape) {
+}
+/* Pixel 2 & Pixel 2 XL PORTRAIT */
+@media screen and (max-width: 412px) {
+}
+/* Pixel 2 LANDSCAPE */
+@media only screen and (min-device-width : 411px) and (max-device-width : 731px) and (orientation : landscape) {
+}
+/* Pixel 2 XL LANDSCAPE */
+@media only screen and (min-device-width : 411px) and (max-device-width : 823px) and (orientation : landscape) {
+}
+/* iPhone 6/7/8 & iPhone X PORTRAIT */
+@media screen and (max-width: 400px) {
+}
+/* iPhone 6/7/8 LANDSCAPE */
+@media only screen and (min-device-width : 411px) and (max-device-width : 667px) and (orientation : landscape) {
+}
+/* Iphone X LANDSCAPE */
+@media only screen and (min-device-width : 411px) and (max-device-width : 822px) and (orientation : landscape) {
+}
+/* Galaxy S5 PORTRAIT */
+@media screen and (max-width: 375px) {
+}
+/* Galaxy S5 LANDSCAPE */
+@media only screen and (min-device-width : 411px) and (max-device-width : 640px) and (orientation : landscape) {
+}
+/* iPhone 5/SE PORTRAIT */
+@media screen and (max-width: 330px) {
+}
+/* iPhone 5/SE LANDSCAPE */
+@media only screen and (min-device-width : 411px) and (max-device-width : 568px) and (orientation : landscape) {
 }
