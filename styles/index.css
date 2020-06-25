@@ -301,11 +301,12 @@ textarea{
     z-index: 1;
     text-align: center;
     top: 240px;
-    color:white;
+    color: white;
 }
 
 .ptag{
     z-index: 1;
+    color: transparent;
 }
 
 
