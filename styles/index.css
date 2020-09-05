@@ -1,92 +1,103 @@
 /* Holepage ///////////////////////////////////////////////////////////////////////////////////////////////*/
-html{
+html {
     background-color: #242424;
 }
+
 /* about///////////////////////////////////////////////////////////////////////////////////////////////// */
 
-.mb-0{
+.mb-0 {
     background-color: #242424;
     padding: 15px 15% 15px 15%;
 }
- .card-title{
-     color: white;
- }
 
- .card-text{
-    color:white;
- }
+.card-title {
+    color: white;
+    margin-left: 5vw;
+}
 
-.card-img{
+.card-text {
+    color: white;
+    margin-left: 5vw;
+}
+
+.card-img {
     padding-top: 35px;
     width: 95%;
     height: 65%;
 }
 
 /* footer///////////////////////////////////////////////////////////////////////////////////////////////// */
-footer{
+footer {
     color: #929293;
     text-align: center;
     padding-top: 3px;
     padding-bottom: 3px;
-   
+
 }
 
-a.link{
+a.link {
     color: #df9b3a;
     text-decoration: none;
 }
+
 a:link {
     color: #df9b3a;
     text-decoration: none;
-  }
-  a:visited {
+}
+
+a:visited {
     color: #df9b3a;
     text-decoration: none;
-  }
-  a:hover {
+}
+
+a:hover {
     color: #df9b3a;
     text-decoration: none;
-  }
-  a:active {
+}
+
+a:active {
     color: #df9b3a;
     text-decoration: none;
-  }
-/* navbar */
-#header{
+}
+
+/* navbar ////////////////////////////////////////////////////////////////////////////////////////////////*/
+#header {
     position: fixed;
     z-index: 10;
     width: 100%;
 }
 
-.navbar{
+.navbar {
     padding: 1px 0;
 }
 
 
-.navbar-dark .navbar-brand{
+.navbar-dark .navbar-brand {
     color: #df9b3a;
 }
 
-.nav-item{
+.nav-item {
     font-weight: 600;
     text-transform: uppercase;
     padding-left: 0px;
 }
 
-.nav-link{
+.nav-link {
     color: #df9b3a;
 }
 
-.navbar-dark .navbar-nav .nav-item .nav-link:hover{
+.navbar-dark .navbar-nav .nav-item .nav-link:hover {
     background: #dcdde1;
     color: #df9b3a;
 }
+
 /* portafolio box ///////////////////////////////////////////////////////////////////////////////////////*/
-.container-portafolio{
+.container-portafolio {
     background: #2f2e36;
     width: 100%;
 }
-.portafolio-title{
+
+.portafolio-title {
     padding: 5% 0% 0% 0%;
     color: #fff;
     text-align: center;
@@ -96,45 +107,49 @@ a:link {
     background: -webkit-linear-gradient(white, #38495a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom:0px;
+    margin-bottom: 0px;
 }
 
 
-.portafolio{
-    width:100%;
+.portafolio {
+    width: 100%;
     height: 100%;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     background: #2f2e36;
     padding-top: -5px;
     padding-bottom: 20px;
 }
-.wrapper2{
-    display:flex;
+
+.wrapper2 {
+    display: flex;
     width: 70%;
     justify-content: space-around;
     background: #2f2e36;
     padding: 15px;
 }
-.card{
+
+.card {
     width: 280px;
     height: 300px;
     padding: 2rem 1rem;
     background: #fff;
-    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
     transition: 0.5s ease-in-out;
 }
-.card:hover{
+
+.card:hover {
     transform: translateY(20px);
 }
-.card:before{
+
+.card:before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
-    display:block;
-    width:100%;
+    display: block;
+    width: 100%;
     height: 100%;
     background: linear-gradient(to bottom, #ffffff 0%, #df9b3a 100%);
     z-index: 2;
@@ -142,19 +157,20 @@ a:link {
     opacity: 0;
 }
 
-.card:hover:before{
+.card:hover:before {
     opacity: 1;
 }
 
-.card img{
-    width:100%;
+.card img {
+    width: 100%;
     height: 100%;
-    object-fit:cover;
+    object-fit: cover;
     position: absolute;
     top: 0;
     left: 0;
 }
-.card .info{
+
+.card .info {
     position: relative;
     z-index: 3;
     color: #fff;
@@ -162,47 +178,54 @@ a:link {
     transform: translateY(30px);
     transition: 0.5s all;
 }
-.card:hover .info{
+
+.card:hover .info {
     opacity: 1;
     transform: translateY(0);
 }
-.card .info h1{
-    color:#df9b3a;
-    margin:0;
+
+.card .info h1 {
+    color: #df9b3a;
+    margin: 0;
 }
-.card .info p{
-    letter-spacing:1px;
+
+.card .info p {
+    letter-spacing: 1px;
     font-size: 12px;
     margin-top: 8px;
     margin-bottom: 20px;
 }
-.card .info .btn{
-    text-decoration:none;
+
+.card .info .btn {
+    text-decoration: none;
     padding: 0.5rem 1rem;
     background: #fff;
-    color:#000;
+    color: #000;
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;
     transition: 0.4s ease-in-out;
 }
-.card .info .btn:hover{
-    box-shadow: 0px 7px 10px rgba(0,0,0,0,0.5);
+
+.card .info .btn:hover {
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0, 0.5);
 }
+
 /* contact box //////////////////////////////////////////////////////////////////////////////////////////*/
-h1{
+h1 {
     margin: 0;
     padding: 0;
     text-align: center;
     margin-bottom: 50px;
 }
-.formBox{
+
+.formBox {
     margin-top: 15px;
     padding: 50px;
 }
 
 
-.contact{
+.contact {
     color: #fff;
     text-align: center;
     font-family: Lato;
@@ -210,23 +233,24 @@ h1{
     font-size: 50px;
     letter-spacing: 10px;
     margin-top: -60px;
-    padding-left: 0px; 
+    padding-left: 0px;
     background: -webkit-linear-gradient(white, #38495a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-section{
+
+section {
     padding: 10px;
     background: #262626;
 }
 
-.inputBox{
+.inputBox {
     position: relative;
     box-sizing: border-box;
     margin-bottom: 40px;
 }
 
-.input{
+.input {
     position: relative;
     width: 100%;
     height: 50px;
@@ -234,10 +258,10 @@ section{
     border: none;
     outline: none;
     font-size: 24px;
-    border-bottom: 2px solid rgba(0,0,0,.5);
+    border-bottom: 2px solid rgba(0, 0, 0, .5);
 }
 
-.inputText{
+.inputText {
     position: absolute;
     line-height: 50px;
     font-size: 24px;
@@ -246,29 +270,30 @@ section{
     color: white
 }
 
-.focus .inputText{
+.focus .inputText {
     transform: translateY(-30px);
     font-size: 18px;
     opacity: 1;
     color: #df9b3a;
 }
 
-textarea{
+textarea {
     height: 100px;
 }
 
-.button{
-    width:100%;
+.button {
+    width: 100%;
     background: #df9b3a;
     color: #fff;
     border-radius: 0;
     border: none;
-    outline:none;
-    height:50px;
-    font-size:24px;
+    outline: none;
+    height: 50px;
+    font-size: 24px;
 }
+
 /* header image /////////////////////////////////////////////////////////////////////////////////////////*/
-.jumbotron{
+.jumbotron {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -278,7 +303,8 @@ textarea{
     overflow: hidden;
     margin-bottom: 0;
 }
-.display-4{
+
+.display-4 {
     position: relative;
     z-index: 1;
     /* margin: 20px 20px 20px 20px;
@@ -291,25 +317,26 @@ textarea{
     font-weight: 300;
     font-size: 50px;
     letter-spacing: 10px;
-    background: -webkit-linear-gradient(white, #38495a);
+    background: -webkit-linear-gradient(white, #a2a3a5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.lead{
+.lead {
     position: relative;
     z-index: 1;
     text-align: center;
     top: 240px;
-    color:white;
+    color: white;
 }
 
-.ptag{
+.ptag {
     z-index: 1;
+    color: transparent;
 }
 
 
-.video-container{
+.video-container {
     z-index: 0;
     position: relative;
     bottom: 350px;
@@ -318,50 +345,79 @@ textarea{
 }
 
 /* iPad Pro PORTRAIT */
-@media screen and (max-width: 1024px) {
-}
+@media screen and (max-width: 1024px) {}
+
 /* iPad Pro LANDSCAPE*/
-@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) and (orientation : landscape) {
-}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) and (orientation : landscape) {}
+
 /* iPad PORTRAIT*/
-@media screen and (max-width: 769px) {
-}
+@media screen and (max-width: 769px) {}
+
 /* iPad LANDSCAPE*/
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {}
+
 /* iPhone 6/7/8 Plus PORTRAIT */
-@media screen and (max-width: 414px) {
-}
+@media screen and (max-width: 414px) {}
+
 /* iPhone 6/7/8 Plus LANDSCAPE */
-@media only screen and (min-device-width : 411px) and (max-device-width : 736px) and (orientation : landscape) {
-}
+@media only screen and (min-device-width : 411px) and (max-device-width : 736px) and (orientation : landscape) {}
+
 /* Pixel 2 & Pixel 2 XL PORTRAIT */
-@media screen and (max-width: 412px) {
-}
+@media screen and (max-width: 412px) {}
+
 /* Pixel 2 LANDSCAPE */
-@media only screen and (min-device-width : 411px) and (max-device-width : 731px) and (orientation : landscape) {
-}
+@media only screen and (min-device-width : 411px) and (max-device-width : 731px) and (orientation : landscape) {}
+
 /* Pixel 2 XL LANDSCAPE */
-@media only screen and (min-device-width : 411px) and (max-device-width : 823px) and (orientation : landscape) {
-}
+@media only screen and (min-device-width : 411px) and (max-device-width : 823px) and (orientation : landscape) {}
+
 /* iPhone 6/7/8 & iPhone X PORTRAIT */
-@media screen and (max-width: 400px) {
-}
+@media screen and (max-width: 400px) {}
+
 /* iPhone 6/7/8 LANDSCAPE */
-@media only screen and (min-device-width : 411px) and (max-device-width : 667px) and (orientation : landscape) {
-}
+@media only screen and (min-device-width : 411px) and (max-device-width : 667px) and (orientation : landscape) {}
+
 /* Iphone X LANDSCAPE */
-@media only screen and (min-device-width : 411px) and (max-device-width : 822px) and (orientation : landscape) {
-}
+@media only screen and (min-device-width : 411px) and (max-device-width : 822px) and (orientation : landscape) {}
+
 /* Galaxy S5 PORTRAIT */
-@media screen and (max-width: 375px) {
-}
+@media screen and (max-width: 375px) {}
+
 /* Galaxy S5 LANDSCAPE */
-@media only screen and (min-device-width : 411px) and (max-device-width : 640px) and (orientation : landscape) {
-}
+@media only screen and (min-device-width : 411px) and (max-device-width : 640px) and (orientation : landscape) {}
+
 /* iPhone 5/SE PORTRAIT */
-@media screen and (max-width: 330px) {
-}
+@media screen and (max-width: 330px) {}
+
 /* iPhone 5/SE LANDSCAPE */
-@media only screen and (min-device-width : 411px) and (max-device-width : 568px) and (orientation : landscape) {
+@media only screen and (min-device-width : 411px) and (max-device-width : 568px) and (orientation : landscape) {}
+
+.my-ad {
+    border: solid 1px;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding-left: 20px;
+    font-family: Tahoma bold 20px;
+}
+
+.my-ad {
+    border: solid 1px;
+    padding-top: 10px;
+    padding-left: 5px;
+    margin-left: 20px;
+    font-family: Tahoma bold 20px;
+}
+
+.image {
+    margin-top: 3vw;
+    margin-right: 10vw;
+    margin-top: 5vw;
+    padding-bottom: 0vw;
+    height: 31vw;
+    width: 24vw;
+    border-radius: 5vw;
+}
+
+.findme {
+    margin-left: 5vw;
 }
