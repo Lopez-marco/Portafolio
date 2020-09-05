@@ -390,6 +390,7 @@ textarea {
 @media screen and (max-width: 330px) {}
 
 /* iPhone 5/SE LANDSCAPE */
+<<<<<<< HEAD
 @media only screen and (min-device-width : 411px) and (max-device-width : 568px) and (orientation : landscape) {}
 
 .my-ad {
@@ -421,3 +422,7 @@ textarea {
 .findme {
     margin-left: 5vw;
 }
+=======
+@media only screen and (min-device-width : 411px) and (max-device-width : 568px) and (orientation : landscape) {
+}
+>>>>>>> 520f0673ae2c3982f25916f8aec1e65f2aac6766
